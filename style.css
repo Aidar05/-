@@ -1,0 +1,70 @@
+body{
+  font_family: 'SoDo Sans SemiBold', Helvetica Neue, Helvetica, Arial, sans-serif
+} 
+
+.logo{
+  width: 50px;
+}
+
+.location_logo path{
+  width: 20px;
+  height: 50px;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px 20px 100px;
+  box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.75);
+}
+
+.left_wrapper{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.right_wrapper{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.location_logo, .reg{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.wrapper_text{
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.right_text{
+  font-weight: 600;
+  padding: 5px 20px 5px 20px;
+  border: black solid 1px;
+  border-radius: 40px;
+}
+
+.text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#zareg{
+  background-color: black;
+  color: white;
+}
+
+.text:hover, .wrapper_text:hover{
+  color: rgb(224, 90, 0)
+}
+
+.right_text:hover{
+  opacity: 0.6;
+}
